@@ -38,8 +38,8 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
+                        <li><a href="<c:url value="/" />">Home</a></li>
+                        <li><a href="<c:url value="/productList" />">Products</a></li>
                         <li><a href="#contact">Contact</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
@@ -76,14 +76,19 @@
                 <th>Condition</th>
                 <th>Price</th>
             </tr>
-            <tr>
-                <td><img src="#" alt="image"/></td>
-                <td>${product.productName}</td>
-                <td>${product.productCategory}</td>
-                <td>${product.productCondition}</td>
-                <td>${product.productPrice}</td>
-            </tr>
             </thead>
+            <%--loop through each product item--%>
+            <%-- items = ${products} is the instance we attached to the model--%>
+            <%-- var = product represents each instance of the list --%>
+            <c:forEach items="${products}" var="product">
+                <tr>
+                    <td><img src="#" alt="image"/></td>
+                    <td>${product.productName}</td>
+                    <td>${product.productCategory}</td>
+                    <td>${product.productCondition}</td>
+                    <td>${product.productPrice}</td>
+                </tr>
+            </c:forEach>
         </table>
 
     <!-- FOOTER -->

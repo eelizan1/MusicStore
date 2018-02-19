@@ -13,7 +13,7 @@ Used to grab data from database
 * */
 public class ProductDao {
     // list of products
-    private List<Product> productList = new ArrayList<Product>();
+    private List<Product> productList;
 
     public List<Product> getProductList() {
 
@@ -28,7 +28,33 @@ public class ProductDao {
         product1.setUnitInStock(11);
         product1.setProductManufacturer("Fender");
 
+        Product product2 = new Product();
+        product2.setProductName("Record 1");
+        product2.setProductCategory("Record");
+        product2.setProductDescription("This is awesome mix of modern pop music");
+        product2.setProductPrice(25);
+        product2.setProductCondition("New");
+        product2.setProductStatus("Active");
+        product2.setUnitInStock(51);
+        product2.setProductManufacturer("EMI");
+
+        Product product3 = new Product();
+        product3.setProductName("Speaker 1");
+        product3.setProductCategory("Accessory");
+        product3.setProductDescription("This is Polk Shelf Speaker");
+        product3.setProductPrice(355);
+        product3.setProductCondition("New");
+        product3.setProductStatus("Active");
+        product3.setUnitInStock(9);
+        product3.setProductManufacturer("Polk");
+
+        // re-instanciates the list eveyrtime this method is called
+        // so if there's a page reload, the list will be renewed and not add on existing products
+        productList = new ArrayList<Product>();
+
         productList.add(product1);
+        productList.add(product2);
+        productList.add(product3);
 
         return productList;
     }

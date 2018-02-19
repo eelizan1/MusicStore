@@ -25,11 +25,12 @@ public class HomeController {
         // note - the model parameter will be attached to the view
 
         // create list of products
-        List<Product> productList = productDao.getProductList();
-        // new instance product is the first product
-        Product product = productList.get(0);
+        List<Product> products = productDao.getProductList();
+
         // bind the product object to the model
-        model.addAttribute(product);
+        // name: "products"
+        // value: "products"
+        model.addAttribute("products", products);
         // when we return this view, the model will be attached to the view
         return "productList"; // view jsp file name
     }
