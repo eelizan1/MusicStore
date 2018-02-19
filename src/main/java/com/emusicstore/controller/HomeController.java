@@ -4,8 +4,10 @@ import com.emusicstore.dao.ProductDao;
 import com.emusicstore.model.Product;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.io.IOException;
 import java.util.List;
 
 @Controller
@@ -36,8 +38,15 @@ public class HomeController {
     }
 
     // view single product
-    @RequestMapping("productList/viewProduct")
-    public String viewProduct() {
+    // {productId} path variable
+    @RequestMapping("productList/viewProduct/{productId}")
+    public String viewProduct(@PathVariable String productId, Model model) throws IOException {
+        // the parameter String productId will have the contents of {productId}
+
+        // to return a product with this id
+        Product product = productDao.getProductById(productId);
+        // add product to model
+        model.addAttribute(product);
         return "viewProduct";
     }
 }
