@@ -34,4 +34,10 @@ public class HomeController {
         // when we return this view, the model will be attached to the view
         return "productList"; // view jsp file name
     }
+
+    // view single product
+    @RequestMapping("productList/viewProduct")
+    public String viewProduct() {
+        return "viewProduct";
+    }
 }

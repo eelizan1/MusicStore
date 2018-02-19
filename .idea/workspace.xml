@@ -7,10 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b112b655-72bf-4687-bf85-4147b4ad148b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/footer.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/classes/com/emusicstore/dao/ProductDao.class" afterPath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/classes/com/emusicstore/dao/ProductDao.class" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/views/productList.jsp" afterPath="$PROJECT_DIR$/out/artifacts/eMusicStore_war_exploded/WEB-INF/views/productList.jsp" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/HomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/HomeController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/ProductDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/ProductDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/ProductDao.class" afterPath="$PROJECT_DIR$/target/classes/com/emusicstore/dao/ProductDao.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -81,15 +86,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/emusicstore/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+            <state relative-caret-position="574">
+              <caret line="40" column="29" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#527#528#0" expanded="true" />
                 <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
+                <element signature="e#1278#1279#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewProduct.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="e#549#583#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,10 +127,20 @@
       <file leaf-file-name="productList.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="82" column="22" lean-forward="false" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="22" />
+            <state relative-caret-position="82">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/footer.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="49" />
               <folding>
-                <element signature="e#4255#4263#0#HTML" expanded="true" />
+                <element signature="e#116#124#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,7 +149,7 @@
       <file leaf-file-name="home.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
+            <state relative-caret-position="1196">
               <caret line="46" column="71" lean-forward="false" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
               <folding />
             </state>
@@ -145,10 +184,13 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/emusicstore/model/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/notes.txt" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/emusicstore/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/footer.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/emusicstore/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp" />
       </list>
     </option>
   </component>
@@ -175,8 +217,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1911" />
     <option name="y" value="-9" />
-    <option name="width" value="1932" />
-    <option name="height" value="1050" />
+    <option name="width" value="1668" />
+    <option name="height" value="938" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -551,16 +593,15 @@
       <option name="presentableId" value="Default" />
       <updated>1519008218093</updated>
       <workItem from="1519008223139" duration="2867000" />
-      <workItem from="1519049231552" duration="11004000" />
+      <workItem from="1519049231552" duration="13062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13871000" />
+    <option name="totallyTimeSpent" value="15929000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1920" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="1911" y="-9" width="1938" height="1098" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -580,10 +621,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23146068" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21321961" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20347004" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2015625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -714,14 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="46" column="71" lean-forward="false" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/emusicstore/model/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -763,13 +796,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="82" column="22" lean-forward="false" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="22" />
-          <folding>
-            <element signature="e#4255#4263#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="1196">
+          <caret line="46" column="71" lean-forward="false" selection-start-line="46" selection-start-column="71" selection-end-line="46" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -785,12 +824,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/emusicstore/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state relative-caret-position="574">
+          <caret line="40" column="29" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#527#528#0" expanded="true" />
             <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+            <element signature="e#1278#1279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="49" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="49" />
+          <folding>
+            <element signature="e#116#124#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/productList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/viewProduct.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="e#549#583#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
