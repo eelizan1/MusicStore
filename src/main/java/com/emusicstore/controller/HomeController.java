@@ -52,4 +52,32 @@ public class HomeController {
         model.addAttribute(product);
         return "viewProduct";
     }
+
+    // maps to the admin page
+    @RequestMapping("/admin")
+    public String adminPage() {
+        return "admin";
+    }
+
+    // maps to the admin inventory page
+    @RequestMapping("/admin/productInventory")
+    public String InventoryPage(Model model) {
+        List<Product> product = productDao.getAllProducts();
+        model.addAttribute("products", product);
+
+        return "productInventory";
+    }
+
+    // map to the add product page
+    @RequestMapping("/admin/productInventory/addProduct")
+    public String adminPage(Model model) {
+        Product product = new Product();
+        product.setProductCategory("instrument");
+        product.setProductCondition("new");
+        product.setProductStatus("Active");
+
+        model.addAttribute("product", product);
+
+        return "addProduct"; 
+    }
 }
