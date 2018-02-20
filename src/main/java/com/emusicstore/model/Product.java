@@ -1,6 +1,20 @@
 package com.emusicstore.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+/*
+* PRODUCT MODEL
+* This class corresponds to a table in the db and an instance of this class corresponds to a row of that table
+* */
+
+@Entity // --> tells spring that this class is an entity and we want to store it into the database
 public class Product {
+    @Id //--> defines the primary key in the table
+    @GeneratedValue(strategy = GenerationType.AUTO) // --> tells the system that when you create a new instance amd persist it to the db, t
+                                                    // he product Id will be generated automatically in sequential order
 
     private String productId;
     private String productName;
