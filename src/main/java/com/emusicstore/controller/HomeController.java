@@ -5,8 +5,10 @@ import com.emusicstore.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.io.IOException;
 import java.util.List;
@@ -78,6 +80,16 @@ public class HomeController {
 
         model.addAttribute("product", product);
 
-        return "addProduct"; 
+        return "addProduct";
+    }
+
+    // handles mapping for the request of POST from the form
+    // form will submit the model information to this method
+    // (@ModelAttribute("model name") define new product here which will refer to the ("model name")
+    @RequestMapping(value = "/admin/productInventory/addProduct", method = RequestMethod.POST)
+    public String addProductPost(@ModelAttribute("product") Product product) {
+        productDao.addProduct(product);
+        // go to a different path not a jsp page
+        return "redirect:/admin/productInventory";
     }
 }
